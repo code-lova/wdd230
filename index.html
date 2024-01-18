@@ -11,9 +11,9 @@
     <meta property="og:title" content="Ebizo Jeremiah Course Home Page - WDD 230 - Web Frontend Development">
     <meta property="og:image" content="https://www.propertypro.ng/guide/wp-content/uploads/2023/05/Egor-Edo.jpg">
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -22,9 +22,11 @@
     <header>
         <img src="images/profile.jpg" alt="Ebizo Jeremiah">
         <span class="myname">Ebizo Jeremiah</span>
+        <div id="mode">Dark🌚</div>
     </header>
     <nav>
-        <ul>
+        <button id="menu"></button>
+        <ul class="navigation">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="">Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>

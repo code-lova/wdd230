@@ -1,3 +1,35 @@
+//For hamburger menu 
+
+const hamMenuBtn = document.querySelector("#menu");
+const navigation = document.querySelector(".navigation");
+
+hamMenuBtn.addEventListener("click", () => {
+    navigation.classList.toggle("show");
+    hamMenuBtn.classList.toggle("show");
+});
+
+
+
+// toggling dark mode for website
+
+const modeBtn = document.querySelector("#mode");
+const main = document.querySelector("main");
+
+modeBtn.addEventListener("click", () => {
+	if (modeBtn.textContent.includes("Dark🌚")) {
+		main.style.background = "#000";
+		main.style.color = "#fff";
+		modeBtn.textContent = "Light🔆";
+	} else {
+		main.style.background = "#eee";
+		main.style.color = "#000";
+		modeBtn.textContent = "Dark🌚";
+	}
+});
+
+
+
+//javascript to get date and time of modification
 const getYear = document.querySelector("#year");
 
 const option = {year: 'numeric'};
@@ -25,5 +57,10 @@ function formatDate(date) {
 }
 
 lastMod.textContent = `Last Modification: ${lastMode()}`;
+
+
+
+
+
 
 

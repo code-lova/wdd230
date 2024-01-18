@@ -47,7 +47,29 @@
         margin-top: 20px;
     }
 
+ 
+    
+ 
 
+
+    #menu{
+        display: none;
+    }
+    
+    /* ul.navigation li a{
+        display: block;
+        padding: .75rem 2vw;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    
+    
+    ul.navigation{
+        display: none;
+        list-style-type: none;
+    } */
+    
     nav{
         max-width: 1000px;
         background-color: rgb(148, 187, 148);
@@ -59,6 +81,17 @@
     nav ul li {
 		flex: 1 1 100%;
 	}
+   
+
+    ul.navigation, ul.navigation.show{
+        justify-content: space-around;
+    }
+
+    
+
+   
+
+    
 
 
     
