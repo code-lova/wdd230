@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #6b6969;
+    color: #535050;
     background-color: #ffffff;
 }
 
@@ -8,12 +8,12 @@ header {
     background-color: #D98324;
     text-align: center;
     padding: 20px;
-    color: #ffffff;
+    color: #000000;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #44CF6C;
+    color: #151716;
 }
 
 section {
@@ -70,7 +70,7 @@ section {
 
 footer {
     background-color: #D98324;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 10px;
     position: fixed;
