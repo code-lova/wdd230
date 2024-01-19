@@ -6,10 +6,128 @@
     <title>Ebizo Jeremiah - WDD230 - BizzBuddy Chamber of Commerce</title>
     <meta name="author" content="Ebizo Jeremiah">
     <meta name="description" content="Ebizo Jeremiah, WDD 230 - Web Frontend Development, BizzBuddy Chamber of Commerce, BYUI Web Frontend Development">
-    <link rel="icon" href="favicon.ico">
-    
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:url" content="https://code-lova.github.io/wdd230/chamber/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BizzBuddy chamber of commerce  - WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="https://www.propertypro.ng/guide/wp-content/uploads/2023/05/Egor-Edo.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora&display=swap">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
+    <header>
+        <img src="images/logo.png" alt="bizzbuddy chamber logo">
+        <span>
+            <button>Benefits</button>
+            <button>Join the Chamber</button>
+        </span>
+        
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Engagements</a></li>
+            <li><a href="">Discover</a></li>
+            <li><a href="">News</a></li>
+        </ul>
+        <button>Join the Chamber</button>
+    </nav>
+    <main>
+        <div class="parent1">
+            <section class="card1">
+                <img src="images/benin-city.jpeg" alt="egor-benin-city-community">
+                <h2>BizzBuddy Chambers Egor Area</h2>
+            </section>
     
+            <section class="card2">
+                <h2>We connect Egor for Prosperity</h2>
+                <p>
+                    We are a membership organization that helps create jobs 
+                    so people can find work and provide for their families in our community.
+                </p>
+                <span>
+                    <button class="event">Events</button>
+                    <a class="join" href="">Learn More ♣︎</a> 
+                </span>
+            </section>
+
+        </div>
+
+        <div class="parent2">
+            <section class="advert1">
+                <img src="images/Board-room.jpeg" alt="bizzbudy-confirms-2024-board">
+                <h2>Chamber Confirms 2024 Board Positions</h2>
+                <p>
+                    The Chamber has selected its 2024-2025 board leadership. 
+                    Rudy Garza, will be the 2024 board chair and Mark Ramseur, 
+                    will be the 2025 board chair and serve as chair elect in 2024. 
+                    Click below to see the full board.
+                </p>
+            </section>
+
+            <section class="advert2">
+                <img src="images/sxsw.png" alt="bizzbuddy-chamber-members-can-buy-discount">
+                <h2>Chamber Members Can Buy Discount SXSW Badges</h2>
+                <p>
+                    BizzBuddy Chamber is a proud partner of SXSW, and we are 
+                    excited that this partnership includes offering discounts 
+                    on attending the 2024 conference for our members. 
+                    The price increases as the year goes on, so buy today 
+                    to lock in the best possible price.
+                </p>
+            </section>
+
+            <section class="weather">
+                <h2>Weather Information</h2>
+                <p>Benin City, Nigeria</p>
+                <p>37°C - Sunshine</p>
+                <p>Page Visits: 10</p>
+            </section>
+        
+        </div>
+
+        <div class="parent3">
+
+            <section class="card-event1">
+                <img src="images/event.jpeg" alt="bizzbuddy-hosting-event">
+                <h2>Event</h2>
+            </section>
+
+            <section class="card-event2">
+                <h2>We connect, Network and Educate.</h2>
+                <p>
+                    We serve as a hub for local businesses and residents, 
+                    providing essential information, resources, and promoting 
+                    community engagement with renouned individuals and companies. 
+                </p>
+                <p>
+                    Expanding personal and professional relationships, 
+                    gain career-enhancing knowledge, and develop your
+                    business with others who share common goals.
+                </p>
+
+                <button>Annual Events</button>
+            </section>
+
+
+        </div>
+        
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="year">2020</span> BizzBuddy Chamber. </p>
+        <p>Ebizo Jeremiah</p>
+        <p>📞Phone:+1(635) 920-1014  📧Email:info@bizzbuddy.com</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/chamber.js"></script>
 </body>
 </html>
