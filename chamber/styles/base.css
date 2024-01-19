@@ -61,6 +61,10 @@ header img {
   margin-right: 10px;
 }
 
+header h1{
+  display: none;
+}
+
 /* NAVIGATION MENU BAR FOR SMALL SCREEN */
 nav {
   max-width: 1200px;
@@ -253,6 +257,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 
 /* .parent1{
     border: 1px solid var(--nav-link-color);
