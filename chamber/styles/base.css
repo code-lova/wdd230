@@ -183,6 +183,84 @@ main .card-event2 {
   padding: 10px 40px 20px;
 }
 
+
+main .interest{
+  margin-top: 90px;
+  /* border-top: 2px solid var(--accent-color); */
+  text-align: center;
+  /* border: 1px solid var(--nav-link-color); */
+
+
+}
+
+main .interest h2{
+  border-bottom: 2px solid var(--accent-color); 
+  
+}
+
+main .interest button {
+  height: 35px;
+  background-color: var(--nav-background-color-large);
+  border: 2px solid var(--accent-color);
+  font-weight: bolder;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 10px 20px 30px; /* Adjusting padding as needed */
+  margin-top: 23px;
+  width: 200px;
+}
+
+main .interest button:hover {
+  background-color: var(--header-color);
+}
+
+
+main .svg1 {
+  /* border: 1px solid var(--nav-link-color); */
+  margin-top: 90px;
+  text-align: center;
+}
+
+main .svg1 p{
+  margin: 1px 10px 10px;
+}
+
+main .svg2 {
+  /* border: 1px solid var(--nav-link-color); */
+  margin-top: 90px;
+  text-align: center;
+}
+
+main .svg2 p{
+  margin: 1px 10px 10px;
+}
+
+
+main .svg3 {
+  /* border: 1px solid var(--nav-link-color); */
+  margin-top: 90px;
+  text-align: center;
+}
+
+main .svg3 p{
+  margin: 1px 10px 10px;
+}
+
+main .patners{
+  margin-top: 90px;
+  text-align: center;
+}
+
+main .patners h2{
+  border-bottom: 2px solid var(--accent-color);
+
+}
+
+main .parent5{
+  margin-top: 100px;
+}
+
+
 /* STYLING THE BUTTON IN PARENT3 ELEMENT CLASS */
 .parent3 button {
   height: 35px;
@@ -204,6 +282,11 @@ h2 {
   font-family: var(--heading-font);
   font-size: 28px;
   font-weight: bold;
+}
+
+h4{
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 /* STYLING THE ELEMENT IN PARENT1 CLASS */
@@ -247,6 +330,8 @@ p {
   text-decoration: underline;
 }
 
+
+
 /* styling the footer  */
 footer {
   margin-top: 1.2rem;
@@ -284,7 +369,7 @@ footer {
     padding: 0.26rem 2vw;
     position: absolute;
     top: 4rem;
-    right: 3rem;
+    right: 1.6rem;
   }
 
   #menu::before {
@@ -331,4 +416,15 @@ footer {
     width: 100%;
     border-radius: 2px;
   }
+
+}
+
+
+@media screen and (min-width: 500px) {
+  
+  .griiid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
 }
