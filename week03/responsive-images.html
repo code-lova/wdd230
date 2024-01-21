@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebizo Jeremiah - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Ebizo Jeremiah">
+    <meta name="description" content="Ebizo Jeremiah, WDD 230 - responsice-images assignment, BYUI Web Frontend Development">
+    <meta property="og:url" content="https://code-lova.github.io/wdd230/week03/responsive-images.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ebizo Jeremiah - WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora&display=swap">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+  </head>
+  <body>
+    <header>
+        <h1>Responsive Images</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/hero-small.webp" alt="adelaide-australia-temple-lds-866420-wallpaper">
+                <source media="(max-width: 1000px)" srcset="images/hero-medium.webp" alt="adelaide-australia-temple-lds-866420-wallpaper">
+                <img src="images/hero-large.webp" alt="adelaide-australia-temple-lds-866420-wallpaper" width="1500" height="750">
+            </picture>
+        </div>
+        <h2>The Adelaide Australia Temple - The Church of Jesus Christ Of Latter Day Saint</h2>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year">2020</span> All right reserved.</p>
+    </footer>
+    
+    <script>
+        const year = document.querySelector("#year");
+        year.textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
