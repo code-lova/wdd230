@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Ebizo Jeremiah">
+        <img src="images/profile.webp" alt="Ebizo Jeremiah">
         <span class="myname">Ebizo Jeremiah</span>
         <div id="mode">Dark🌚</div>
     </header>
@@ -34,35 +34,53 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-medium.webp">
+                <source media="(max-width: 960px)" srcset="images/hero-large.webp">
+                <img src="images/hero-large.webp" alt="adelaide-australia-temple-lds-866420-wallpaper" width="1000" height="750">
+            </picture>
+            <div class="herolabel">
+                <p>Adelaide Temple</p>
+            </div>
+        </div>
+        
+            
         <h1>WDD 230: Web Frontend Development</h1>
-
-        <section class="cards">
-            <h2>Learning Activities</h2>
-            <ul>
-                <li>Week 01: <a href="">Layout | Media Query | JS Pen</a></li>
-                <li>Week 02: 
-                    <a href="week02/design.html">Design Principles | </a>
-                    <a href="https://codepen.io/Ebizo-Jeremiah/pen/RwdpmyX">Hamburger Menu | </a>
-                    <a href="week02/bom.html">DOM Manipulation</a>
-                </li>
-                <li>Week 03: <a href="week03/images/landscape.webp">WebP | </a> 
-                    <a href="week03/lazyload.html">Lazy Loading | </a>
-                    <a href="week03/responsive-images.html">Responsive Image | </a>
-                    <a href="week03/bom.html">Web Storage API</a>
-                </li>
-                <li>Week 04: <a href=""></a></li>
-                <li>Week 05: <a href=""></a></li>
-                <li>Week 06: <a href=""></a></li>
-            </ul>
-        </section>
-
-        <section class="card">
-            <h2>Information</h2>
-            <p>Benin City, Nigeria</p>
-            <p>37°C - Sunshine</p>
-            <p>Page Visits: 10</p>
-
-        </section>
+        <div class="parent">
+            <section class="cards">
+                <h2>Learning Activities</h2>
+                <ul>
+                    <li>Week 01: <a href="">Layout | Media Query | JS Pen</a></li>
+                    <li>Week 02: 
+                        <a href="week02/design.html">Design | </a>
+                        <a href="https://codepen.io/Ebizo-Jeremiah/pen/RwdpmyX">Hamburger | </a>
+                        <a href="week02/bom.html">DOM</a>
+                    </li>
+                    <li>Week 03: <a href="week03/images/landscape.webp">WebP | </a> 
+                        <a href="week03/lazyload.html">Lazy | </a>
+                        <a href="week03/responsive-images.html">Responsive | </a>
+                        <a href="week03/bom.html">local Storage</a>
+                    </li>
+                    <li>Week 04: <a href=""></a></li>
+                    <li>Week 05: <a href=""></a></li>
+                    <li>Week 06: <a href=""></a></li>
+                </ul>
+            </section>
+    
+            <section class="card">
+                <h2>Information</h2>
+                <p>Benin City, Nigeria</p>
+                <p>🌞37°C - Sunshine</p>
+                <p id="visits"></p>
+    
+            </section>
+        </div>
+        
+        <div class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11098.76277452387!2d5.606916288204508!3d6.391560896017921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10472cdb1858ad05%3A0x6b1209e4ffc3e810!2sUniversity%20of%20Benin%20Teaching%20Hospital!5e0!3m2!1sen!2sng!4v1705914918399!5m2!1sen!2sng" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
     </main>
     <footer>

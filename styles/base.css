@@ -80,12 +80,15 @@ nav a:hover{
 /* main h1 */
 
 
+
 main h1{
     font-size: 30px;
     margin-top: 30px;
     text-align: center;
     border: double;
     color: rgb(59, 87, 59);
+    max-width: 1000px;
+    margin: 0 auto;
 
 }
 
@@ -126,11 +129,50 @@ main li{
     color: rgb(5, 74, 5);
 }
 
+.hero{
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+}
+.hero img{
+    height: auto;
+    width: 100%;
+}
+
+
+.herolabel {
+	position: absolute;
+	top: 100px;
+	left: 30px;
+	background: radial-gradient(#fff, #95a395);
+	border: 1px solid rgba(49, 49, 49, 0.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:'Roboto', sans-serif
+}
+
+
+
+
+
+
+
 .card p{
     text-align: center;
     color: rgb(5, 74, 5);
 
 }
+
+
 
 
 
@@ -155,6 +197,10 @@ footer p{
 /* for smaller screen sizes */
 @media screen and (max-width: 689px) {
     
+    .parent{
+        padding: 10px;
+    }
+
     header{
         max-width: 1000px;
         border: 0px solid rgb(29, 49, 29);
@@ -225,9 +271,50 @@ footer p{
         display: block;
     }
 
+    .hero img{
+        width: 100%;
+        height: auto;
+    }
 
+    .herolabel p {
+        margin: 0;
+        padding: .25rem;
+        font-weight: 700;
+        font-size: 1rem;
+        font-family:'Roboto', sans-serif;
+    }
+
+    .herolabel {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        width:180px;
+        height: 50px;
+        background: radial-gradient(#dfdddd, #b8c3b8);
+        border: 1px solid rgba(255, 255, 255, 0.975);
+        padding: 1rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+        /* Buenas */
+    }
+
+
+    .location{
+        /* border: 1px solid #000; */
+        margin-top: 5px;
+        border-radius: 20px;
+    }
+    .location iframe{
+        width: 100%;
+        /* height: auto; */
+        padding: 10px;
+
+    }
 
 }
+
+
+
 
 /* for smaller screen sizes of 300px */
 @media screen and (max-width: 300px) {

@@ -9,20 +9,50 @@ hamMenuBtn.addEventListener("click", () => {
 });
 
 
+//Page number of visits 
+const displayVisits = document.querySelector("#visits");
+
+// Get the stored VALUE for the visitList KEY in localStorage if it exists. 
+// If the numVisits KEY is missing, then assign 0 to the visitNum variable.
+let visitNum = Number(window.localStorage.getItem("visitList")) || 0;
+
+
+// Determine if this is the first visit or display the number of visits. 
+if(visitNum === 0) {
+    displayVisits.textContent = `This is your first visit. Welcome🤩`;
+}else{
+    displayVisits.textContent = `Number of Visits: ${visitNum}`;
+}
+
+// increment the number of visits by one.
+visitNum++;
+
+// store the new visit total into localStorage, key=visitList
+localStorage.setItem("visitList", visitNum);
+
+
+
 
 // toggling dark mode for website
 
 const modeBtn = document.querySelector("#mode");
 const main = document.querySelector("main");
+const heading = document.querySelector("h1");
+const herolabelBg = document.querySelector(".herolabel");
+
 
 modeBtn.addEventListener("click", () => {
 	if (modeBtn.textContent.includes("Dark🌚")) {
 		main.style.background = "#000";
 		main.style.color = "#fff";
+        heading.style.color = "#fff";
+        herolabelBg.style.background = "rgb(59, 87, 59)";
 		modeBtn.textContent = "Light🔆";
 	} else {
-		main.style.background = "#eee";
+		main.style.background = "#fff";
 		main.style.color = "#000";
+        heading.style.color = "rgb(59, 87, 59)";
+        herolabelBg.style.background = "radial-gradient(#fff, #95a395)";
 		modeBtn.textContent = "Dark🌚";
 	}
 });
