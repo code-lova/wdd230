@@ -300,13 +300,11 @@ footer p{
 
 
     .location{
-        /* border: 1px solid #000; */
-        margin-top: 5px;
         border-radius: 20px;
     }
     .location iframe{
         width: 100%;
-        /* height: auto; */
+        height: auto;
         padding: 10px;
 
     }
