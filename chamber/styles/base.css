@@ -335,6 +335,17 @@ p {
   text-align: center;
 }
 
+/* //For discover page */
+.discover-sidebar button{
+  height: 35px;
+  background-color: var(--nav-background-color-large);
+  border: 2px solid var(--accent-color);
+  font-weight: bolder;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 10px 20px 30px; /* Adjusting padding as needed */
+}
+
 /* styling the footer  */
 footer {
   margin-top: 1.2rem;
@@ -453,15 +464,7 @@ footer {
     height: auto;
   }
 
-  .discover-sidebar button{
-    height: 35px;
-    background-color: var(--nav-background-color-large);
-    border: 2px solid var(--accent-color);
-    font-weight: bolder;
-    font-size: 17px;
-    cursor: pointer;
-    padding: 10px 20px 30px; /* Adjusting padding as needed */
-  }
+ 
 
   .discover-content h2{
     text-align: center;
