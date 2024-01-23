@@ -335,7 +335,48 @@ p {
   text-align: center;
 }
 
-/* //For discover page */
+/* //For discover page and its ELEMENTS*/
+.discover-sidebar{
+  text-align: center;
+}
+
+.left-sidebar-1{
+  margin-top: 50px;
+
+}
+
+.left-sidebar-1 h2{
+  border-bottom: 2px solid var(--accent-color);
+  text-decoration-color: var(--accent-color);
+
+}
+
+
+.left-sidebar-2{
+  margin-top: 50px;
+
+}
+
+.left-sidebar-3{
+  margin-top: 50px;
+
+}
+
+.discover-content h2{
+  text-align: center;
+  border-top: 2px solid var(--accent-color);
+  border-right: 2px solid var(--accent-color);
+}
+
+.discover-content{
+  margin-top: 100px;
+
+}
+
+.content{
+  margin-top: 40px;
+}
+
 .discover-sidebar button{
   height: 35px;
   background-color: var(--nav-background-color-large);
@@ -358,11 +399,7 @@ footer {
 }
 
 
-/* .parent1{
-    border: 1px solid var(--nav-link-color);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
+
 
 /* for smaller screen sizes below 899px */
 @media screen and (max-width: 898px) {
@@ -432,31 +469,13 @@ footer {
   }
 
 
-  .discover-sidebar{
-    text-align: center;
-  }
-
-  .left-sidebar-1{
-    margin-top: 50px;
-
-  }
-
-  .left-sidebar-1 h2{
-    border-bottom: 2px solid var(--accent-color);
-    text-decoration-color: var(--accent-color);
-
+  .discover-content img{
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
 
-  .left-sidebar-2{
-    margin-top: 50px;
-
-  }
-
-  .left-sidebar-3{
-    margin-top: 50px;
-
-  }
 
   .left-sidebar-2 img{
     display: block;
@@ -465,27 +484,6 @@ footer {
   }
 
  
-
-  .discover-content h2{
-    text-align: center;
-    border-top: 2px solid var(--accent-color);
-    border-right: 2px solid var(--accent-color);
-  }
-
-  .discover-content{
-    margin-top: 100px;
-
-  }
-
-  .discover-content img{
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  .content{
-    margin-top: 40px;
-  }
   
  
 
