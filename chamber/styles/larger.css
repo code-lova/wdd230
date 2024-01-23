@@ -38,7 +38,7 @@
     /* styling image card and parent1 card for big screen */
     main .card1 img{
         display: block;
-        height: 500px;
+        height: auto;
         width: 100%;
     }
 
@@ -104,7 +104,93 @@
         text-align: center;
         width: 400px;
         margin: 0 auto;
-      }
+    }
+
+
+
+    /* styling for discover page */
+
+    .dicover{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+        margin-top: 50px;
+    }
+
+    .discover-sidebar{
+        grid-column: 1 / 2;
+    }
+
+    .discover-content{
+        grid-column: 2 / 4;
+    }
+
+    .left-sidebar-2 img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .discover-content img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .discover-content img:hover{
+        opacity: .5;
+    }
+
+    .discover-content h2{
+        text-align: center;
+        border-top: 2px solid var(--accent-color);
+        border-right: 2px solid var(--accent-color);
+    }
+
+    .left-sidebar-1 h2{
+        border-bottom: 2px solid var(--accent-color);
+        text-decoration-color: var(--accent-color);
+        border-right: 2px solid var(--accent-color);
+    
+    }
+
+    .discover-sidebar button{
+        height: 35px;
+        background-color: var(--nav-background-color-large);
+        border: 2px solid var(--accent-color);
+        font-weight: bolder;
+        font-size: 17px;
+        cursor: pointer;
+        padding: 10px 20px 30px; /* Adjusting padding as needed */
+    }
+
+    .discover-sidebar button:hover{
+        background-color: var(--header-color);
+    }
+
+    .left-sidebar-2{
+        margin-top: 50px;
+    }
+
+    .left-sidebar-2 h2{
+        text-align: center;
+    }
+
+    .left-sidebar-3{
+        margin-top: 50px;
+    
+    }
+
+    .left-sidebar-3 h2{
+        text-align: center;
+    }
+
+    .content{
+        margin-top: 40px;
+    }
+
+
+
 
     .footer{
         margin-top: 30px;

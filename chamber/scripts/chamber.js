@@ -39,3 +39,36 @@ function formatDate(date) {
 }
 
 lastMod.textContent = `Last Modification: ${lastMode()}`;
+
+
+
+//Using localStorage to store the latest visit date by the client
+const visitMessageElement = document.getElementById("visit-message");
+
+// Get the current date
+const currentDate = new Date();
+
+// Retrieve the last visit date from localStorage
+const lastVisitDate = localStorage.getItem("lastVisitDate");
+
+if (!lastVisitDate) {
+    // First visit
+    visitMessageElement.textContent = "Welcome! Let us know if you have any questions.";
+} else {
+    // Calculate the time between visits
+    const timeDifference = currentDate - new Date(lastVisitDate);
+    const daysBetweenVisits = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+    if (daysBetweenVisits < 1) {
+        // Less than a day
+        visitMessageElement.textContent = "Back so soon! Awesome!";
+    } else {
+        // More than a day
+        const daysText = daysBetweenVisits === 1 ? "day" : "days";
+        visitMessageElement.textContent = `You last visited ${daysBetweenVisits} ${daysText} ago.`;
+    }
+}
+
+// Store the current date as the last visit date in localStorage
+localStorage.setItem("lastVisitDate", currentDate.toISOString());
+

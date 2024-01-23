@@ -330,7 +330,10 @@ p {
   text-decoration: underline;
 }
 
-
+.visit-card{
+  margin-top: 50px;
+  text-align: center;
+}
 
 /* styling the footer  */
 footer {
@@ -394,7 +397,7 @@ footer {
   /* styling for images in card */
   main .card1 img {
     display: block;
-    height: 340px;
+    height: auto;
     width: 100%;
   }
 
@@ -416,6 +419,72 @@ footer {
     width: 100%;
     border-radius: 2px;
   }
+
+
+  .discover-sidebar{
+    text-align: center;
+  }
+
+  .left-sidebar-1{
+    margin-top: 50px;
+
+  }
+
+  .left-sidebar-1 h2{
+    border-bottom: 2px solid var(--accent-color);
+    text-decoration-color: var(--accent-color);
+
+  }
+
+
+  .left-sidebar-2{
+    margin-top: 50px;
+
+  }
+
+  .left-sidebar-3{
+    margin-top: 50px;
+
+  }
+
+  .left-sidebar-2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .discover-sidebar button{
+    height: 35px;
+    background-color: var(--nav-background-color-large);
+    border: 2px solid var(--accent-color);
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 10px 20px 30px; /* Adjusting padding as needed */
+  }
+
+  .discover-content h2{
+    text-align: center;
+    border-top: 2px solid var(--accent-color);
+    border-right: 2px solid var(--accent-color);
+  }
+
+  .discover-content{
+    margin-top: 100px;
+
+  }
+
+  .discover-content img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .content{
+    margin-top: 40px;
+  }
+  
+ 
 
 }
 
