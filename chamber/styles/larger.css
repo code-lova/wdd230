@@ -45,19 +45,19 @@
 
     main .advert1 img{
         display: block;
-        height: 400px;
+        height: auto;
         width: 100%;
     }
 
     main .advert2 img{
         display: block;
-        height: 400px;
+        height: auto;
         width: 100%;
     }
 
     main .card-event1 img{
         display: block;
-        height: 400px;
+        height: auto;
         width: 100%;
     }
     

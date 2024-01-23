@@ -403,19 +403,19 @@ footer {
 
   main .advert1 img {
     display: block;
-    height: 340px;
+    height: auto;
     width: 100%;
   }
 
   main .advert2 img {
     display: block;
-    height: 340px;
+    height: auto;
     width: 100%;
   }
 
   main .card-event1 img {
     display: block;
-    height: 325px;
+    height: auto;
     width: 100%;
     border-radius: 2px;
   }
@@ -495,5 +495,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
 
 }
