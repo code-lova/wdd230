@@ -169,7 +169,7 @@ main .weather p {
 main .card-event1 {
   /* border: 1px solid var(--nav-link-color); */
   margin-top: 1.2rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
 }
 
 main .card-event1 h2 {
@@ -217,17 +217,18 @@ main .interest button:hover {
 
 main .svg1 {
   /* border: 1px solid var(--nav-link-color); */
-  margin-top: 90px;
+  margin-top: 50px;
   text-align: center;
 }
 
 main .svg1 p{
   margin: 1px 10px 10px;
+  
 }
 
 main .svg2 {
   /* border: 1px solid var(--nav-link-color); */
-  margin-top: 90px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -238,7 +239,7 @@ main .svg2 p{
 
 main .svg3 {
   /* border: 1px solid var(--nav-link-color); */
-  margin-top: 90px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -401,8 +402,11 @@ footer {
 
 
 
-/* for smaller screen sizes below 899px */
-@media screen and (max-width: 898px) {
+
+
+
+
+
   /* Put header button in nav bar */
   header button {
     display: none;
@@ -486,16 +490,10 @@ footer {
  
   
  
-
-}
-
-
-@media screen and (min-width: 500px) {
   
-  .griiid{
+  /* .griiid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-  }
+  } */
 
 
-}

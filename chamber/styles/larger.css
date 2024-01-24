@@ -1,6 +1,11 @@
-@media screen and (min-width: 899px) {
-    
-    nav ul{
+@media screen and (min-width: 820px) {
+
+    ul.navigation {
+        display: block;
+        list-style-type: none;
+    }
+
+    nav .navigation{
         display: flex;
     }
 
@@ -30,6 +35,16 @@
     nav button{
         display: none;
     }
+
+    header button {
+        display: block;
+    }
+
+    header span{
+        display: flex;
+    }
+
+    
 
     /* ul.navigation, ul.navigation.show{
         justify-content: space-around;
@@ -106,6 +121,11 @@
         margin: 0 auto;
     }
 
+    .griiid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 
 
     /* styling for discover page */
@@ -114,7 +134,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 30px;
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     .discover-sidebar{
