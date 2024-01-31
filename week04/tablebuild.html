@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables for Data Presentation - Web Frontend Development</title>
+    <meta name="author" content="Ebizo Jeremiah">
+    <meta name="description" content="Ebizo Jeremiah, WDD 230 -  assignment, BYUI Web Frontend Development">
+    <meta property="og:url" content="https://code-lova.github.io/wdd230/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ebizo Jeremiah - WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora&display=swap">
+    <link rel="stylesheet" href="styles/table.css">
+  </head>
+  <body>
+    <header>
+        <h1>HTML Tables for Data Presentation</h1>
+    </header>
+  
+    <main>
+        <table>
+            <caption>Table 1: Account Feature Comparison</caption>
+
+            <thead>
+                <tr>
+                    <th colspan="4" scope="colgroup">ACME Wildwest Service</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Basic</th>
+                    <th>Premium</th>
+                    <th>Deluxe</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Feature 1</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+
+                </tr>
+                <tr>
+                    <td>Feature 2</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+
+                </tr>
+                <tr>
+                    <td>Feature 3</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+
+                </tr>
+                
+
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year">2020</span> Ebizo Jeremiah</p>
+      
+    </footer>
+    
+    <script>
+        let year = document.querySelector('#year');
+        year.innerHTML = new Date().getFullYear();
+    </script>
+  </body>
+</html>
