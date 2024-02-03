@@ -72,3 +72,19 @@ if (!lastVisitDate) {
 // Store the current date as the last visit date in localStorage
 localStorage.setItem("lastVisitDate", currentDate.toISOString());
 
+
+
+
+
+//Time stap for membership area to show when the form was loaded by the user
+window.onload = function () {
+   
+    // Set the value of the hidden field
+    document.getElementById("timestamp").value = timeStamp();
+    console.log(timeStamp())
+};
+
+function timeStamp(mod){
+    mod = formatDate(new Date());
+    return mod;
+}

@@ -40,6 +40,10 @@
         display: block;
     }
 
+    header a{
+        display: block;
+    }
+
     header span{
         display: flex;
     }
@@ -208,6 +212,45 @@
     .content{
         margin-top: 40px;
     }
+
+
+    /* Join us page/membership page area  */
+
+    .divider{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;        
+    }
+
+    .divider img{
+        border-bottom: 2px solid var(--accent-color);
+    }
+
+    main .membership-levels{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5px;
+    }
+
+
+    main .membership-levels .level1{
+        text-align: left;
+    }
+
+    main .membership-levels .level2{
+        text-align: left;
+    }
+
+    main .membership-levels .level3{
+        text-align: left;
+    }
+
+    main .membership-levels .level4{
+        text-align: left;
+    }
+
+    
+
 
 
 

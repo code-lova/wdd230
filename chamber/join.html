@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebizo Jeremiah - WDD230 - BizzBuddy Chamber of Commerce</title>
+    <meta name="author" content="Ebizo Jeremiah">
+    <meta name="description" content="Ebizo Jeremiah, WDD 230 - Web Frontend Development, BizzBuddy Chamber of Commerce, BYUI Web Frontend Development">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:url" content="https://code-lova.github.io/wdd230/chamber/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BizzBuddy chamber of commerce  - WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="https://www.propertypro.ng/guide/wp-content/uploads/2023/05/Egor-Edo.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora&display=swap">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="bizzbuddy chamber logo">
+        <h1>Benin City Egor Chamber of Commerce</h1>
+        <span>
+            <button>Benefits</button>
+            <a href="join.html">Join the Chamber </a>
+        </span>
+        
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Engagements</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Membership</a></li>
+        </ul>
+        <button>Join the Chamber</button>
+    </nav>
+    <main>
+        <div class="join">
+            <h2>Join the Chamber</h2>
+            <p>
+                By joining the Chamber, you are supporting our mission to 
+                "provide leadership that facilitates the creation of a 
+                prosperous regional economy and effective advocacy for our members." 
+                Chamber membership also supports numerous programs and benefits. 
+            </p>
+        </div>
+
+        <div class="divider">
+            <section class="join-img">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/membership-small.webp">
+                    <source media="(max-width: 960px)" srcset="images/membership-large.webp">
+                    <img src="images/membership-large.webp" alt="join bizzbuddy chamber" loading="lazy" width="1000" height="750">
+                </picture>
+                <h2>Digital promotion</h2>
+                <p>As part of BizzBuddy Chamber we support our members with
+                    grand openings and announcements, even in this time of social distancing.
+
+                    As part of our digital marketing package to showcase both your 
+                    business and your celebration, we help you promote your announcement 
+                    through a featured blog article, promotional video, and social posts.
+                </p>
+                <div class="membership-levels">
+
+                
+                    <section class="level1">
+                        <img src="images/Capitol.png" alt="">
+                        <h4>NP Membership</h4>
+                        <h5>Benefits</h5>
+                        <p>-Stay updated with Activities and Events </p>
+                        <p>-For non profit organizations and there is no fee</p>
+                    </section>
+
+                    <section class="level2">
+                        <img src="images/Western_Handshake.png" alt="">
+                        <h5>$590/year</h5>
+                        <h4>Bronze</h4>
+                        <h5>Benefits</h5>
+                        <p>-Get involved and stay Updated</p>
+                        <p>-Supporting the growth of your business.</p>
+                        <p>-Receive all core benefits listed above</p>
+                        
+                    </section>
+
+                    <section class="level3">
+                        <img src="images/Horseshoe.png" alt="">
+                        <h5>$1,180/year</h5>
+                        <h4>Silver</h4>
+                        <h5>Benefits</h5>
+                        
+                        <p>-Increased visibility and resources</p>
+                        <p>-Enhanced directory listing: </p>
+                        <p>-2 listings and 2 categories per listing</p>
+                        
+                    </section>
+
+                    <section class="level4">
+                        <img src="images/Chart.png" alt="">
+                        <h5>$2,675 and up</h5>
+                        <h4>Gold</h4>
+                        <h5>Benefits</h5>
+                        
+                        <p>-Maximized company recognition</p>
+                        <p>-Broad range of enhanced benefits.</p>
+                        <p>-Flexible account planning, customized to fit your needs</p>
+                        
+                    </section>
+                   
+                </div>
+              
+
+            
+            </section>
+            
+
+            <section class="join-form">
+                <form action="thankyou.html" method="get">
+                    <h2>Create an Account</h2>
+                    
+                    <fieldset>
+                        <legend>Applicant Information</legend>
+                        <p class="info">*️ Indicates a required field</p>
+                        <label class="top">First Name*<input type="text" id="fname" name="fname" required></label>
+                        <label class="top">Last Name*<input type="text" id="lname" name="lname" required></label>
+                        <label class="top">Email*<input type="email" name="email" id="email" placeholder="someone@gmail.com"  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Please enter a valid email address" required></label>
+                        <label class="top">Mobile*<input type="tel" name="mobile" id="mobile" placeholder="+12233445566" required></label> 
+                        <label class="top">Title/Position<input type="text" id="title" name="title" pattern="^[A-Za-z -]{7,}$" placeholder="current organizational title/position"></label>
+
+                        <!-- <label class="top">Password*<input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" title="Please enter at least 8 alphanumeric characters" required></label> 
+                        <label class="top">Confirm Password<input type="password" id="cpassword" name="cpassword" placeholder="confirm your password"></label> 
+                        <div id="error"></div> -->
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <div>
+                            Membership Level
+                            <label class="sbs"><input type="radio" name="mlevel" value="Non-profit">NP Membership</label>
+                            <label class="sbs"><input type="radio" name="mlevel" value="bronze">Bronze Membership</label>
+                            <label class="sbs"><input type="radio" name="mlevel" value="silver">Silver Membership</label>
+                            <label class="sbs"><input type="radio" name="mlevel" value="gold">Gold Membership</label>
+                        </div>
+                        <label class="top">Business/Organization Name*<input type="text" id="bizname" name="bizname" required></label>
+
+                        <label class="top">Business/Organization Description <textarea name="bizdesc" id="bizdesc" cols="39" rows="6"></textarea></label>
+
+                        <label class="top"><input type="hidden" name="timestamp" id="timestamp"></label>
+                    </fieldset>
+
+                    <input type="submit" value="Create My Account" class="submitBtn">
+
+                </form>
+            </section>
+        </div>
+
+       
+        
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="year">2020</span> BizzBuddy Chamber. </p>
+        <p>Ebizo Jeremiah</p>
+        <p>📞Phone:+1(635) 920-1014  📧Email:info@bizzbuddy.com</p>
+        <p id="visit-message"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>

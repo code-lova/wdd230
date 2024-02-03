@@ -17,6 +17,9 @@
   --nav-hover-background-color: #ddd;
   --nav-background-color-large: #f8f2e9;
   --nav-link-hover-background: #fbfbfb;
+
+  --form-color: rgb(0, 0, 0, 0.1);
+  --valid-color: rgb(27, 163, 27);
 }
 
 * {
@@ -50,8 +53,25 @@ header button {
   text-align: center;
 }
 
+header a{
+  text-decoration: none;
+  color: #000000;
+  border: 2px solid var(--nav-link-color);
+  padding: 10px 10px 10px; /* Adjusting padding as needed */
+  font-size: 15px;
+  text-align: center;
+  margin-right: 30px;
+
+}
+
 /* Hover effect for buttons */
 header button:hover {
+  background-color: var(--nav-link-color);
+  color: var(--header-color);
+}
+
+/* Hover effect for buttons */
+header a:hover {
   background-color: var(--nav-link-color);
   color: var(--header-color);
 }
@@ -412,6 +432,10 @@ footer {
     display: none;
   }
 
+  header a{
+    display: none;
+  }
+
   /* HANBURGER MENU FOR SMALLER SCREEN LESS THAN 899PX */
   #menu {
     font-size: 2.5rem;
@@ -439,6 +463,7 @@ footer {
     display: none;
     list-style-type: none;
   }
+
 
   /** CSS for show and hide  **/
 
@@ -495,5 +520,239 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   } */
+
+
+
+  /* THE FORM STYLEING CSS ON THE JOIN/MEMBERSHIP PAGE*/
+
+main .join {
+  text-align: center;
+}
+
+main .join h2{
+  font-size: 50px;
+  position: relative;
+  display: inline-block;
+  
+}
+
+main .join h2::before,
+main .join h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Adjust the width as needed */
+    height: 2px; /* Adjust the border thickness as needed */
+    background-color: var(--accent-color); /* Adjust the border color as needed */
+}
+
+main .join h2::after {
+  left: auto;
+  right: 0;
+}
+
+main .join p{
+  margin-top: 0;
+  font-size: 17px;
+}
+
+
+main .join-img img{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+
+}
+
+
+
+
+
+
+main .membership-levels .level1 img{
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+
+main .membership-levels .level1{
+  border: 2px solid #efe8e8;
+  padding: 10px;
+  margin-top: 2px;
+  text-align: center;
+}
+
+main .membership-levels .level1 h4, h5{
+  text-align: center;
+}
+
+
+
+
+
+
+main .membership-levels .level2 img{
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+main .membership-levels .level2{
+  border: 2px solid #efe8e8;
+  padding: 10px;
+  margin-top: 2px;
+  text-align: center;
+
+
+}
+
+main .membership-levels .level2 h4{
+  text-align: center;
+}
+
+
+
+
+
+
+
+main .membership-levels .level3 img{
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+main .membership-levels .level3{
+  border: 2px solid #efe8e8;
+  padding: 10px;
+  margin-top: 2px;
+  text-align: center;
+}
+
+main .membership-levels .level3 h4{
+  text-align: center;
+}
+
+
+
+
+
+
+main .membership-levels .level4 img{
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+main .membership-levels .level4{
+  border: 2px solid #efe8e8;
+  padding: 10px;
+  margin-top: 2px;
+  text-align: center;
+}
+
+main .membership-levels .level4 h4{
+  text-align: center;
+}
+
+
+
+
+.join-form h2{
+  text-align: center;
+}
+
+
+
+
+
+
+
+main form fieldset{
+  margin: 2rem 0;
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  padding: .5rem 2%;
+  margin-top: 50px;
+  
+}
+
+main form legend{
+  color: var(--secondary-color);
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 18px;
+}
+
+
+main form label.top, form div{
+  display: block;
+  padding: 1rem;
+  color: var(--secondary-color);
+  font-size: 17px;
+
+}
+
+
+main form label.top input, form label.top textarea{
+  display: block;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: .75rem;
+  color: var(--primary-color);
+  width: 100%;
+  max-width: 30rem;
+  background-color: var(--form-color)
+}
+
+form label.sbs {
+  display: block;
+  padding: .48rem;
+  color: var(--header-color);
+  font-size: 16px;
+}
+
+form label.sbs input{
+  margin: 5px;
+}
+
+
+
+main form input.submitBtn{
+  border: none;
+  background-color: var(--header-color);
+  color: var(--main-color);
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 0%;
+  width: 96%;
+  max-width: 20rem;
+  cursor: pointer;
+}
+
+
+main form label.top input:required{
+  border-left: solid rgb(227, 85, 85) 6px;
+}
+
+main form label.top input:required:valid{
+  border-left: solid var(--valid-color) 6px;
+}
+
+
+main form input.submitBtn:hover{
+  background-color: var(--nav-link-color);
+  color: var(--accent-color);
+}
 
 
