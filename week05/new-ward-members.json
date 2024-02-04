@@ -1,0 +1,24 @@
+{
+    "familyName": "Benjamins",
+    "movedDate" : "10th January, 2024",
+    "familyMemNum": 12,
+    "bishopricVisited": true,
+    "individualFamMembers": [
+        {
+            "name": "Mica Benjamine",
+            "gender": "female",
+            "birthDate": "11-06-1997"
+        },
+
+        {
+            "name": "Hanna Benjamine",
+            "gender": "female",
+            "birthDate": "18-05-1999"
+        },
+        {
+            "name": "John Benjamine",
+            "gender": "male",
+            "birthDate": "22-09-2005"
+        }
+    ]
+}
