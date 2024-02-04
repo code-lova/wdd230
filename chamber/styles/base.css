@@ -718,7 +718,7 @@ main form label.top input, form label.top textarea{
 form label.sbs {
   display: block;
   padding: .48rem;
-  color: var(--header-color);
+  color: var(--text-color);
   font-size: 16px;
 }
 
