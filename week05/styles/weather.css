@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+    padding: 10px;
+}
+
+#current-temp{
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+
+header, footer{
+    border: 2px solid #cbcaca;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(246, 240, 240);   
+}
+
+main{
+    border: 2px solid #8d8888;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(175, 216, 229);
+    padding: 10px;
+    text-align: center;
+}
