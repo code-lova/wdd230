@@ -7,7 +7,7 @@
             "url": "https://skydive.uae.org",
             "image": "images/sky.webp",
             "level": "Gold",
-            "country": "UAE"
+            "country": "United Arab Emirate"
         },
 
         {
@@ -17,7 +17,7 @@
             "url": "https://lineareas.org",
             "image": "images/lap.webp",
             "level": "Silver",
-            "country": "USA"
+            "country": "United States"
         },
         {
             "name": "Al Dana",
@@ -26,7 +26,7 @@
             "url": "https://aldanaoma.com",
             "image": "images/aldana.webp",
             "level": "Bronze",
-            "country": "USA"
+            "country": "United States"
         },
         {
             "name": "Union Plus",
@@ -35,7 +35,7 @@
             "url": "https://unionplus.com",
             "image": "images/unionplus.webp",
             "level": "Gold",
-            "country": "USA"
+            "country": "United States"
         },
         {
             "name": "MapXtend",
