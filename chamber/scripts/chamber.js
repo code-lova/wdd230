@@ -110,3 +110,81 @@ function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
 }
+
+
+
+//Calling our members API from data folder we created and pushed to github
+
+//Declearing varables
+// Get the ul element
+let baseURL = "https://code-lova.github.io/wdd230/";
+
+let linksURL = "chamber/data/members.json"
+
+const mainCard = document.querySelector(".mcard1");
+
+
+const showMembers = (members) => {
+    members.forEach((members) => {
+
+        const section = document.createElement("section");
+
+        const img = document.createElement("img");
+        img.setAttribute('src', members.image);
+        img.setAttribute('alt', `img of ${members.name}`); 
+        img.setAttribute('loading', 'lazy');
+        img.setAttribute('width', '136');
+        img.setAttribute('height', '136');
+        img.style.boxShadow = "5px 5px 10px rgba(0, 0, 0, 0.5)";
+
+        const h4 = document.createElement("h4");
+        h4.innerHTML = members.name;
+
+        const span = document.createElement("span");
+        span.innerHTML = `, ${members.level}`;
+
+        const para1 = document.createElement("p");
+        para1.textContent = members.addresses;
+
+        const para2 = document.createElement("p");
+        para2.textContent = members.country;
+
+        const para3 = document.createElement("p");
+        para3.textContent = members.phone;
+
+        const para4 = document.createElement("p");
+        para4.textContent = members.url;
+
+        h4.append(span);
+
+        section.append(img, h4, para1, para2, para3, para4);
+        mainCard.appendChild(section);
+
+    });
+}
+
+
+
+
+const getMembers = async() => {
+    try{
+
+        const response = await fetch(baseURL + linksURL)
+        if(response.ok)
+        {
+            const data = await response.json();
+            console.log(data);
+            showMembers(data.members);
+        }
+        else{
+            throw Error(await response.text());
+        }
+    }
+    catch(error){
+        console.log(error);
+    }
+}
+
+getMembers();
+
+

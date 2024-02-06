@@ -2,9 +2,9 @@
     "members":[
         {
             "name": "UAE SykDive",
-            "addresses": "4644 Whaley Lane, Milwaukee",
+            "address": "4644 Whaley Lane, Milwaukee",
             "phone": "(262) 565-0427",
-            "url": "https:skydive.uae.org",
+            "url": "https://skydive.uae.org",
             "image": "images/sky.webp",
             "level": "Gold",
             "country": "UAE"
@@ -12,54 +12,54 @@
 
         {
             "name": "Lines Aeras",
-            "addresses": "3724 Sundown Lane Austin, Texas",
+            "address": "3724 Sundown Lane Austin, Texas",
             "phone": "(512)-232-5370",
-            "url": "https:lineareas.org",
+            "url": "https://lineareas.org",
             "image": "images/lap.webp",
             "level": "Silver",
             "country": "USA"
         },
         {
             "name": "Al Dana",
-            "addresses": "45 Midway Road Rogers, Arkansas",
+            "address": "45 Midway Road Rogers, Arkansas",
             "phone": "(479)-636-9541",
-            "url": "https:aldanaoma.com",
+            "url": "https://aldanaoma.com",
             "image": "images/aldana.webp",
             "level": "Bronze",
             "country": "USA"
         },
         {
             "name": "Union Plus",
-            "addresses": "4088 Rockwell Lane Rocky Mount, North Carolina",
+            "address": "4088 Rockwell Lane Rocky Mount, North Carolina",
             "phone": "(252)-557-6933",
-            "url": "https:unionplus.com",
+            "url": "https://unionplus.com",
             "image": "images/unionplus.webp",
             "level": "Gold",
             "country": "USA"
         },
         {
             "name": "MapXtend",
-            "addresses": "2889 Cecil Street uselu nova road",
+            "address": "2889 Cecil Street uselu nova road",
             "phone": "(312)-242-9366",
-            "url": "https:mapxtend.com",
+            "url": "https://mapxtend.com",
             "image": "images/unionplus.webp",
             "level": "Gold",
             "country": "Nigeria"
         },
         {
             "name": "Opmon",
-            "addresses": "Ali madaf street, close mecca, Tk",
+            "address": "Ali madaf street, close mecca, Tk",
             "phone": "(510)-670-9134",
-            "url": "https:opmonltd.com",
+            "url": "https://opmonltd.com",
             "image": "images/opmon.webp",
             "level": "Silver",
             "country": "Turkey"
         },
         {
             "name": "Ck Ajamps",
-            "addresses": "Kuffa Adana 14th street, Japa close, GH",
+            "address": "Kuffa Adana 14th street, Japa close, GH",
             "phone": "(983)-443-9301",
-            "url": "https:ajampsckltd.com",
+            "url": "https://ajampsckltd.com",
             "image": "images/ajamps.webp",
             "level": "NP",
             "country": "Ghana"

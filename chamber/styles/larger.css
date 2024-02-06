@@ -271,6 +271,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .mcard1 section p{
+        margin: 0px;
+    }
+
     /* When button toggled to list in directory page*/
     .list{
         display: grid;
@@ -280,7 +284,7 @@
     
     .list section {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         margin: 0;
         padding: 0.15rem;
     }

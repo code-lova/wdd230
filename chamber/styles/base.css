@@ -812,6 +812,7 @@ main .directory-list a:hover{
   padding: 1px;
   text-align: center;
   margin: 5px;
+  padding: 20px;
 }
 
 
@@ -841,6 +842,12 @@ main .directory-list a:hover{
 	font-weight: 300;
 	font-size: smaller;
   margin: 10px;
+}
+
+.list section h4{
+  font-size: 1rem;
+  margin: 10px;
+
 }
 
 .list section:nth-child(even) {
