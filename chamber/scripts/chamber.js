@@ -144,7 +144,7 @@ const showMembers = (members) => {
         span.innerHTML = `, ${members.level}`;
 
         const para1 = document.createElement("p");
-        para1.textContent = members.addresses;
+        para1.textContent = members.address;
 
         const para2 = document.createElement("p");
         para2.textContent = members.country;
