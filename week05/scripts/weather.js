@@ -6,7 +6,7 @@ const captionDesc = document.querySelector("figcaption");
 
 let apiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64";
 let apiKey = "dfb9af55f4b2734878203a9ee744d880";
-let unit = "&units=metric";
+let unit = "&units=imperial";
 
 
 const displayResults = (data) => {

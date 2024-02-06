@@ -1,0 +1,104 @@
+{
+    "weeks":
+    [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Holygrail Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/Ebizo-Jeremiah/pen/rNRLMJZ",
+                    "title": "Js Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Web Design Principles"   
+                },
+                {
+                    "url": "https://codepen.io/Ebizo-Jeremiah/pen/RwdpmyX",
+                    "title": "Hamburger Menu"   
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "DOM"   
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"   
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Loading"   
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Design"   
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "local Storage"   
+                }
+
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Ebizo-Jeremiah/pen/RwdQMzB",
+                    "title": "Pseudo-Classes"  
+                },
+                {
+                    "url": "week04/images/css-combinators.png",
+                    "title": "Combinators"  
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "HTML Tables"  
+                },
+                {
+                    "url": "form-start/index.html",
+                    "title": "HTML Forms"  
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Ebizo-Jeremiah/pen/RwdJwJK",
+                    "title": "Pseudo-elements" 
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON" 
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Fetch API" 
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API" 
+                }
+            ]
+        }
+    ]
+}
