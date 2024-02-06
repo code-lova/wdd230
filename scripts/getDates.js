@@ -91,6 +91,60 @@ lastMod.textContent = `Last Modification: ${lastMode()}`;
 
 
 
+//Weather Api from OpenWeathermap.org to display 
+//current weather
+
+const weatherCondition = document.querySelector("#weather-condition");
+const weatherIcon = document.querySelector("#weather-icon");
+const temp = document.querySelector("#temp");
+
+
+
+let apiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=6.34&lon=5.59";
+let apiKey = "dfb9af55f4b2734878203a9ee744d880";
+let unit = "&units=imperial";
+
+
+const showData = (data) =>{
+
+    weatherCondition.innerHTML = `- ${data.weather[0].description}`;
+    const iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    weatherIcon.setAttribute('src', iconSrc);
+    weatherIcon.setAttribute('alt', `weather image of ${data.name}`); 
+    weatherIcon.setAttribute('loading', 'lazy');
+    weatherIcon.setAttribute('width', '100');
+    weatherIcon.setAttribute('height', '50');
+    temp.innerHTML = `${data.main.temp}&deg;F`;
+
+}
+
+
+
+
+//Async function 
+const getWeatherData = async() =>{
+    try{
+        const response = await fetch(apiUrl + `&appid=${apiKey}` + unit)
+        if(response.ok)
+        {
+            const data = await response.json();
+            console.log(data);
+            showData(data)
+        }else{
+            throw Error(await response.text());
+        }
+
+    }
+    catch(error)
+    {
+        console.log(error);
+    }
+}
+
+getWeatherData();
+
+
+
 
 
 
