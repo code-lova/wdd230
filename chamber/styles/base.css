@@ -824,7 +824,7 @@ main .directory-list a:hover{
 
 .list section {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	margin: 0;
 	padding: 0.15rem;
 }
