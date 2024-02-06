@@ -112,8 +112,8 @@ const showData = (data) =>{
     weatherIcon.setAttribute('src', iconSrc);
     weatherIcon.setAttribute('alt', `weather image of ${data.name}`); 
     weatherIcon.setAttribute('loading', 'lazy');
-    weatherIcon.setAttribute('width', '100');
-    weatherIcon.setAttribute('height', '50');
+    weatherIcon.setAttribute('width', '90');
+    weatherIcon.setAttribute('height', '40');
     temp.innerHTML = `${data.main.temp}&deg;F`;
 
 }
