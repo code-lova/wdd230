@@ -250,6 +250,72 @@
     }
 
     
+    /* Directoty page styling */
+
+    main #dir{
+        font-size: 61px;
+        border-bottom: double;
+        border-color: var(--header-color);
+        border-left: none;
+        margin-top: 130px;
+    }
+
+    main .directory{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 5px;
+    }
+
+    .mcard1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* When button toggled to list in directory page*/
+    .list{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0;
+        padding: 0.15rem;
+    }
+    
+    .list section > * {
+        margin: 0 1rem;
+    }
+    
+    .list section img {
+        display: none; /* smaller viewports only */
+    }
+
+    .list section p {
+        font-weight: 500;
+        font-size: smaller;
+        margin: 20px;
+    }
+ 
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
