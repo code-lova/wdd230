@@ -139,6 +139,36 @@
     }
 
 
+    /* Styling for banner home page */
+    .parent7 p{
+        margin: 10px;
+        text-align: center;
+    }
+
+    .parent7 h4{
+       margin: 20px;
+    }
+
+
+    /* STYING THE ABOUT US PAGE */
+    main .about{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    
+    main .abtcontent-card1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+
+
+    .abtcontent-card1 section{
+        padding: 10px;
+    }
+
+
 
 
     /* styling for discover page */

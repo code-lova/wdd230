@@ -81,7 +81,7 @@ window.onload = function () {
    
     // Set the value of the hidden field
     document.getElementById("timestamp").value = timeStamp();
-    console.log(timeStamp())
+    //console.log(timeStamp())
 };
 
 function timeStamp(mod){
@@ -113,7 +113,7 @@ function showList() {
 
 
 
-//Calling our members API from data folder we created and pushed to github
+//Calling our members API for discovery page data folder we created and pushed to github
 
 //Declearing varables
 // Get the ul element
@@ -181,10 +181,9 @@ const getMembers = async() => {
         }
     }
     catch(error){
-        console.log(error);
+        //console.log(error);
     }
 }
 
 getMembers();
-
 

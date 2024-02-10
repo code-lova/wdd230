@@ -32,9 +32,9 @@
         <button id="menu"></button>
         <ul class="navigation">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="about.html">About Us</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="">Events</a></li>
+            <li><a href="events.html">Events</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="join.html">Membership</a></li>
         </ul>
@@ -43,7 +43,11 @@
     <main>
         <div class="parent1">
             <section class="card1">
-                <img src="images/benin-city.jpeg" alt="egor-benin-city-community">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/benin-city.webp">
+                    <source media="(max-width: 960px)" srcset="images/benin-city.webp">
+                    <img src="images/benin-city.webp" alt="egor-benin-city bizzbuddy chamber" loading="lazy" width="720" height="479">
+                </picture>
                 <h2>BizzBuddy Chambers Egor Area</h2>
             </section>
     
@@ -63,7 +67,7 @@
 
         <div class="parent2">
             <section class="advert1">
-                <img src="images/Board-room.jpeg" alt="bizzbudy-confirms-2024-board">
+                <img src="images/Board-room.webp" alt="bizzbudy-confirms-2024-board" loading="lazy" width="600" height="314">
                 <h2>Chamber Confirms 2024 Board Positions</h2>
                 <p>
                     The Chamber has selected its 2024-2025 board leadership. 
@@ -74,7 +78,7 @@
             </section>
 
             <section class="advert2">
-                <img src="images/sxsw.png" alt="bizzbuddy-chamber-members-can-buy-discount">
+                <img src="images/sxsw.webp" alt="bizzbuddy-chamber-members-can-buy-discount" loading="lazy" width="600" height="314">
                 <h2>Chamber Members Can Buy Discount SXSW Badges</h2>
                 <p>
                     BizzBuddy Chamber is a proud partner of SXSW, and we are 
@@ -88,7 +92,10 @@
             <section class="weather">
                 <h2>Weather Information</h2>
                 <p>Benin City, Nigeria</p>
-                <p>37°C - Sunshine</p>
+                <button id="weather-show">Show Weather Info</button>
+                <div id="weather-info">
+                    <p>37°C - Sunshine</p>
+                </div>
                 <p id="visit-message"></p>
             </section>
         
@@ -97,7 +104,7 @@
         <div class="parent3">
 
             <section class="card-event1">
-                <img src="images/event.jpeg" alt="bizzbuddy-hosting-event">
+                <img src="images/event.webp" alt="bizzbuddy-hosting-event" loading="lazy" width="600" height="400">
                 <h2>Event</h2>
             </section>
 
@@ -135,20 +142,20 @@
             <div class="griiid">
                 
                 <section class="svg1">
-                    <img src="images/Chart.png" alt="bizzbuddy-economy">
+                    <img src="images/Chart.webp" alt="bizzbuddy-economy" loading="lazy" width="136" height="136">
                     <h4>BizzBuddy's economy</h4>
                     <p>BizzBuddy Chamber is a key driver of the Central Texas economy, 
                         before, during, and after the current crisis.</p>
                 </section>
     
                 <section class="svg2">
-                    <img src="images/Capitol.png" alt="bizzbuddy-advocacy">
+                    <img src="images/Capitol.webp" alt="bizzbuddy-advocacy" loading="lazy" width="136" height="136">
                     <h4>Advocacy on big issues</h4>
                     <p>We advocate for commonsense policies that help grow our economy.</p>
                 </section>
     
                 <section class="svg3">
-                    <img src="images/Western_Handshake.png" alt="bizzbuddy-connections">
+                    <img src="images/Western_Handshake.webp" alt="bizzbuddy-connections" loading="lazy" width="136" height="136">
                     <h4>Connections & insights</h4>
                     <p>The BizzBuddy Chamber connects businesses to vital 
                         information and to each other.
@@ -162,33 +169,24 @@
             <div>
                 <h2>Our High Valued Gold Members</h2>
             </div>
+            <div class="parent6-card"></div>
+        </div>
 
-            <div class="parent6-card">
-                <!-- <section>
-                    <img src="images/unionplus.webp" alt="">
-                    <p>Name</p>
-                    <p>Phone number</p>
-                    <p>Address</p>
-                    <p>Website</p>
-                </section>
-    
-                <section>
-                    <img src="images/unionplus.webp" alt="">
-                    <p>Name</p>
-                    <p>Phone number</p>
-                    <p>Address</p>
-                    <p>Website</p>
-                </section>
-    
-                <section>
-                    <img src="images/unionplus.webp" alt="">
-                    <h4>Name</h4>
-                    <p>Phone number</p>
-                    <p>Address</p>
-                    <p>Website</p>
-                </section> -->
 
-            </div>
+        <div class="parent7">
+            <button id="close">❌</button>
+            <section>
+                <h2>Attend Our Meet & Greet Event </h2>
+                <p>Meet and Greets are an opportunity for businesses to 
+                    introduce themselves and the services they provide to
+                    Chamber members. 
+                </p>
+                <h4>Event Holding:</h4>
+                <p>Mondays: 3:30pm-4:30pm</p>
+                <p>Tuesdays: 4:00pm-5:30pm</p>
+                <p>Wednesdays: 7:00pm-8:00pm</p>
+
+            </section>
            
 
         </div>
@@ -197,8 +195,8 @@
             <section class="patners">
                 <h2>Pivotal Partners</h2>
                 <span>
-                    <img src="images/asce_seton_logo_hz2_fc_cmyk.jpeg" alt="our partners">
-                    <img src="images/Jacobs_logo_rgb_black.png" alt="our partners">
+                    <img src="images/asce_seton_logo_hz2_fc_cmyk.webp" alt="our partners" loading="lazy" width="150" height="36">
+                    <img src="images/Jacobs_logo_rgb_black.webp" alt="our partners" loading="lazy" width="150" height="36">
                 </span>
             </section>
         </div>
@@ -210,9 +208,15 @@
         <p>Ebizo Jeremiah</p>
         <p>📞Phone:+1(635) 920-1014  📧Email:info@bizzbuddy.com</p>
         <p id="lastModified"></p>
+        <p id="grid"></p>
+        <p id="list"></p>
+        <p id="timestamp"></p>
     </footer>
 
     <script src="scripts/chamber.js"></script>
     <script src="scripts/members.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/weather.js"></script>
+
 </body>
 </html>

@@ -57,7 +57,7 @@ const getGoldMembers = async() => {
         if(response.ok){
             const data = await response.json();
             const goldMembers = data.members.filter(member => member.level === "Gold");
-            console.log(goldMembers);
+            //console.log(goldMembers);
             showGoldMembers(goldMembers);
         }
         else{
@@ -70,3 +70,9 @@ const getGoldMembers = async() => {
 }
 
 getGoldMembers();
+
+
+
+
+
+

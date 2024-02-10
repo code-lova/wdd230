@@ -157,7 +157,7 @@ main .card1 h2 {
 
 main .card2 {
   /* border: 1px solid var(--nav-link-color); */
-  margin-top: 1rem;
+  margin-top: 5px;
   padding: 10px 40px 20px;
   background-color: var(--nav-background-color-large);
   margin: 0;
@@ -178,6 +178,7 @@ main .weather {
   margin-top: 1.8rem;
   border-top: 2px solid var(--accent-color);
   border-bottom: 2px solid var(--accent-color);
+  text-align: center;
 }
 
 main .weather h2 {
@@ -187,6 +188,30 @@ main .weather h2 {
 main .weather p {
   text-align: center;
 }
+
+main .weather button{
+  height: 35px;
+  background-color: var(--nav-background-color-large);
+  border: 2px solid var(--accent-color);
+  font-weight: bolder;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 10px 10px 30px; /* Adjusting padding as needed */
+  width: 190px;
+  margin: 20px;
+}
+
+
+
+/* Styling for home page weather API section */
+#weather-info{
+  list-style-type: none;
+  border: 2px solid var(--accent-color);
+  padding: 5px;
+  background-color: var(--nav-background-color-large);
+}
+
+
 
 main .card-event1 {
   /* border: 1px solid var(--nav-link-color); */
@@ -282,6 +307,61 @@ main .patners h2{
 main .parent5{
   margin-top: 100px;
 }
+
+
+
+/* Styling for about Us page */
+main .about h2{
+  text-decoration:underline;
+  text-decoration-style: double;
+  text-decoration-color: var(--header-color);
+
+}
+
+main .about h5{
+  display: none;
+}
+
+main .abtcontent1{
+  margin-bottom: 2rem;
+}
+
+main .abtcontent2 h2{
+  text-decoration:underline;
+  text-decoration-style: double;
+  text-decoration-color: var(--header-color);
+  margin-top: 70px;
+
+}
+
+main .abtcontent2 section{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+main .abtcontent2 section h3{
+  margin: 5px;
+}
+
+.abtcontent2 button {
+  height: 35px;
+  background-color: var(--nav-background-color-large);
+  border: 2px solid var(--accent-color);
+  font-weight: bolder;
+  font-size: 17px;
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 10px 20px 30px; /* Adjusting padding as needed */
+  text-align: center;
+}
+
+.abtcontent2 button:hover {
+  background-color: var(--header-color);
+}
+
+
+
+
 
 
 /* STYLING THE BUTTON IN PARENT3 ELEMENT CLASS */
@@ -385,8 +465,37 @@ p {
 }
 
 
+/* Styling Meet and greet banner for home page */
+#close{
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 44px;
+  padding: .50rem 1vw;
+  float: right;
+}
 
+.parent7{
+  display: block;
+  margin-top: 2rem;
+  border: 2px solid var(--header-color);
+  padding: 10px;
+}
 
+.parent7 h2{
+  text-align: center;
+}
+
+.parent7 h4{
+  margin: 0;
+  text-align: center;
+}
+
+.parent7 section{
+  padding: 10px;
+  border: 2px solid #d7d0d0;
+  background-color: #f7f5f5;
+}
 
 
 
@@ -511,6 +620,18 @@ footer {
 
   /* styling for images in card */
   main .card1 img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  main .card2 img{
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  main .abtcontent2 img{
     display: block;
     height: auto;
     width: 100%;
