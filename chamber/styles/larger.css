@@ -32,7 +32,7 @@
         display: none;
     }
 
-    nav button{
+    nav .button{
         display: none;
     }
 
@@ -117,6 +117,8 @@
         margin: 0 auto;
         margin-top: 50px;
     }
+
+  
 
     main .patners{
         margin-top: 90px;
@@ -217,14 +219,16 @@
     
     }
 
-    .discover-sidebar button{
+    .discover-sidebar a{
         height: 35px;
         background-color: var(--nav-background-color-large);
         border: 2px solid var(--accent-color);
         font-weight: bolder;
         font-size: 17px;
         cursor: pointer;
-        padding: 10px 20px 30px; /* Adjusting padding as needed */
+        padding: 10px 20px 10px; /* Adjusting padding as needed */
+        text-decoration: none;
+        color: #000;
     }
 
     .discover-sidebar button:hover{
