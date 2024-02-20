@@ -601,6 +601,10 @@ footer {
   margin: 0 auto;
 }
 
+footer .hidden{
+  display: none;
+}
+
 
 
 
